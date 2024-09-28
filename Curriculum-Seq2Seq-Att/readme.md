@@ -78,7 +78,7 @@ Both losses are backpropagated to update the encoder and decoder parameters.
 ### Example Output
 Here is an example interaction with the trained chatbot:
 
-```vbnet
+```css
 You: What is the weather like today?
 Chatbot (weather): It's sunny with a chance of rain later in the afternoon.
 ```
