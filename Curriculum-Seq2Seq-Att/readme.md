@@ -67,8 +67,8 @@ dropout_p: 0.3 (Dropout probability in encoder/decoder layers)
 ## Training and Evaluation
 During training, the model computes:
 
-**Generation Loss: Negative log likelihood loss for the generated sequences.
-**Classification Loss: Cross-entropy loss for the type classification.
+**Generation Loss**: Negative log likelihood loss for the generated sequences.
+**Classification Loss**: Cross-entropy loss for the type classification.
 
 Both losses are backpropagated to update the encoder and decoder parameters.
 
