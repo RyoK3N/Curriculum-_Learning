@@ -103,6 +103,6 @@ Feel free to contribute to the project by submitting issues or pull requests. Be
 
 ## License
 
-```license
+```css
 This project is licensed under the MIT License.
 ```
