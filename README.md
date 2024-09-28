@@ -34,4 +34,4 @@ $$
 \theta^{(k)} = \text{Train}(\theta^{(k-1)}, \mathcal{D}_k)
 $$
 
-where $$\textit{Train}$$ represents the training procedure, such as gradient descent, on the $$\( k \)-th$$ curriculum stage.
+where $$\textit{Train}$$ represents the training procedure, such as gradient descent, on the $$\( k \)th$$ curriculum stage.
