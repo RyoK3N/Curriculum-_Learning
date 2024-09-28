@@ -68,6 +68,7 @@ dropout_p: 0.3 (Dropout probability in encoder/decoder layers)
 During training, the model computes:
 
 **Generation Loss**: Negative log likelihood loss for the generated sequences.
+
 **Classification Loss**: Cross-entropy loss for the type classification.
 
 Both losses are backpropagated to update the encoder and decoder parameters.
@@ -75,5 +76,8 @@ Both losses are backpropagated to update the encoder and decoder parameters.
 ### Example Output
 Here is an example interaction with the trained chatbot:
 
-
+```vbnet
+You: What is the weather like today?
+Chatbot (weather): It's sunny with a chance of rain later in the afternoon.
+```
 
