@@ -95,7 +95,9 @@ The model automatically saves checkpoints after every epoch. You can load these 
 ## Customization
 
 **Curriculum Learning:** You can modify the difficulty measure used to sort the training examples in main.py.
+
 **Type Classification:** You can adjust the number of predefined types and their categories by updating the TypeLang class.
+
 **Vocabulary:** Modify the MIN_FREQ parameter to filter out rare words from the vocabulary.
 
 ## Contributing
