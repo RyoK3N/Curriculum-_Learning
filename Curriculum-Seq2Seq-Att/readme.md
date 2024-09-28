@@ -26,3 +26,12 @@ pip install -r requirements.txt
 1. Prepare the Data
 Ensure that your data is in a JSON format similar to the following structure:
 
+```json
+[
+    {
+        "question": "Your question here",
+        "response": "The corresponding response",
+        "type": "The type of question"
+    }
+]
+```
