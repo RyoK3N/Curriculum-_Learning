@@ -19,4 +19,10 @@ This project implements a curriculum-based sequence-to-sequence (Seq2Seq) chatbo
 To install the required dependencies, you can use the following command:
 ```bash
 pip install -r requirements.txt
+```
+
+## How to Run the Project
+
+1. Prepare the Data
+Ensure that your data is in a JSON format similar to the following structure:
 
