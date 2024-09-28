@@ -6,7 +6,7 @@ $$
 \mathcal{D} = \{(x_i, y_i)\}_{i=1}^N
 $$
 
-where $$( x_i )$$ and \( y_i ) represent the input and output sequences, respectively. The difficulty measure \( d_i \) for each data point is given by the sum of the lengths of the input and output sequences:
+where $$( x_i )$$ and $$( y_i )$$ represent the input and output sequences, respectively. The difficulty measure $$( d_i )$$ for each data point is given by the sum of the lengths of the input and output sequences:
 
 $$
 d_i = |x_i| + |y_i|
