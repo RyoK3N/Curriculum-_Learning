@@ -1,4 +1,4 @@
-\section{Mathematical Formulation}
+$$\section{Mathematical Formulation}$$
 
 Let the training dataset be defined as:
 
