@@ -35,3 +35,9 @@ Ensure that your data is in a JSON format similar to the following structure:
     }
 ]
 ```
+Save the file as raw_data.json in the project directory.
+
+2. Train the Model
+Run the following command to start training the model:
+
+
