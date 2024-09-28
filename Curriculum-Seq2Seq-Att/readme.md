@@ -16,7 +16,15 @@ This project implements a curriculum-based sequence-to-sequence (Seq2Seq) chatbo
 3. **CurriculumSeqDecoder**: LSTM-based decoder that generates a sequence of tokens as the response while incorporating the type classification as an additional input.
 
 ## Dependencies
-To install the required dependencies, you can use the following command:
+To clone the repository
+
+```bash
+git clone https://github.com/RyoK3N/Curriculum-_Learning/blob/main/Curriculum-Seq2Seq-Att
+```
+
+after cloning,
+install the required dependencies, you can use the following command:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -37,9 +45,7 @@ Ensure that your data is in a JSON format similar to the following structure:
 ```
 Save the file as __raw_data.json__ in the project directory.
 
-2. Clone the repository
-
-3. Train the Model
+2. Train the Model
 Run the following command to start training the model:
 
 ```bash
@@ -48,7 +54,7 @@ python main.py
 
 This will train the chatbot model for 50 epochs using the default settings. The model checkpoints will be saved in the __./checkpoints/__ directory.
 
-4. Interact with the Chatbot
+3. Interact with the Chatbot
 Once the model is trained, you can interact with the chatbot:
 
 ```bash
