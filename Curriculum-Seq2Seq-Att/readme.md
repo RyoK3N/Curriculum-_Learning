@@ -102,8 +102,7 @@ The model automatically saves checkpoints after every epoch. You can load these 
 Feel free to contribute to the project by submitting issues or pull requests. Before making contributions, ensure that your code adheres to the style of the existing codebase and includes appropriate documentation.
 
 ## License
-This project is licensed under the MIT License.
 
 ```css
-
+This project is licensed under the __MIT__ License.
 ```
