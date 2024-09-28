@@ -35,9 +35,45 @@ Ensure that your data is in a JSON format similar to the following structure:
     }
 ]
 ```
-Save the file as raw_data.json in the project directory.
+Save the file as __raw_data.json__ in the project directory.
 
 2. Train the Model
 Run the following command to start training the model:
+
+```bash
+python main.py
+```
+
+This will train the chatbot model for 50 epochs using the default settings. The model checkpoints will be saved in the __./checkpoints/__ directory.
+
+3. Interact with the Chatbot
+Once the model is trained, you can interact with the chatbot:
+
+```bash
+python main.py
+```
+Type your queries, and the chatbot will generate responses based on the trained model. Type __exit__, __quit__, or __bye__ to end the session.
+
+## Hyperparameters
+```list
+hidden_size: 512 (Size of the LSTM hidden layers)
+MAX_LENGTH: 100 (Maximum sequence length)
+batch_size: 64 (Batch size during training)
+learning_rate: 0.001 (Learning rate for the optimizer)
+num_epochs: 50 (Number of training epochs)
+teacher_forcing_ratio: 0.5 (Ratio for teacher forcing during training)
+dropout_p: 0.3 (Dropout probability in encoder/decoder layers)
+```
+## Training and Evaluation
+During training, the model computes:
+
+**Generation Loss: Negative log likelihood loss for the generated sequences.
+**Classification Loss: Cross-entropy loss for the type classification.
+
+Both losses are backpropagated to update the encoder and decoder parameters.
+
+### Example Output
+Here is an example interaction with the trained chatbot:
+
 
 
