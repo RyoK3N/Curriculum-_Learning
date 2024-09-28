@@ -37,7 +37,9 @@ Ensure that your data is in a JSON format similar to the following structure:
 ```
 Save the file as __raw_data.json__ in the project directory.
 
-2. Train the Model
+2. Clone the repository
+
+3. Train the Model
 Run the following command to start training the model:
 
 ```bash
@@ -46,7 +48,7 @@ python main.py
 
 This will train the chatbot model for 50 epochs using the default settings. The model checkpoints will be saved in the __./checkpoints/__ directory.
 
-3. Interact with the Chatbot
+4. Interact with the Chatbot
 Once the model is trained, you can interact with the chatbot:
 
 ```bash
@@ -81,3 +83,21 @@ You: What is the weather like today?
 Chatbot (weather): It's sunny with a chance of rain later in the afternoon.
 ```
 
+## Model Checkpoints
+The model automatically saves checkpoints after every epoch. You can load these checkpoints for evaluation or further training.
+
+## Customization
+
+**Curriculum Learning:** You can modify the difficulty measure used to sort the training examples in main.py.
+**Type Classification:** You can adjust the number of predefined types and their categories by updating the TypeLang class.
+**Vocabulary:** Modify the MIN_FREQ parameter to filter out rare words from the vocabulary.
+
+## Contributing
+Feel free to contribute to the project by submitting issues or pull requests. Before making contributions, ensure that your code adheres to the style of the existing codebase and includes appropriate documentation.
+
+## License
+This project is licensed under the MIT License.
+
+```css
+
+```
