@@ -55,7 +55,7 @@ python main.py
 Type your queries, and the chatbot will generate responses based on the trained model. Type __exit__, __quit__, or __bye__ to end the session.
 
 ## Hyperparameters
-```list
+```vbnet
 hidden_size: 512 (Size of the LSTM hidden layers)
 MAX_LENGTH: 100 (Maximum sequence length)
 batch_size: 64 (Batch size during training)
