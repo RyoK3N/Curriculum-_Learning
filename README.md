@@ -12,7 +12,7 @@ $$
 d_i = |x_i| + |y_i|
 $$
 
-Here, \( |x_i| \) and \( |y_i| \) denote the lengths of the sequences \( x_i \) and \( y_i \).
+Here, $$\( |x_i| \)$$ and $$\( |y_i| \)$$ denote the lengths of the sequences $$\( x_i \)$$ and $$\( y_i \)$$.
 
 The dataset is sorted in ascending order based on the difficulty measure:
 
